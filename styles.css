@@ -1,0 +1,244 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #CCF2F4;
+  border-width: 13px;
+  width: 150px;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #CBF1F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: auto;
+  background-color: #A6E3E9;
+}
+
+.bottom-container {
+  background-color: #71C9CE;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 11%;
+}
+
+.code {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.sketch {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.game {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact {
+  color: #FEF1E6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.digi-skills {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+
+.bicycle {
+  width: 6%;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@keyframes load {
+  from {
+    width: 0%
+  }
+}
+
+@-webkit-keyframes load {
+  from {
+    width: 0%
+  }
+}
+
+@-moz-keyframes load {
+  from {
+    width: 0%
+  }
+}
+
+@-o-keyframes load {
+  from {
+    width: 0%
+  }
+}
+
+.bar {
+  text-align: left;
+  background-color: #ddd;
+  padding: 3px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bar::before {
+  content: attr(data-skill);
+  background-color: red;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.learning::before {
+  background-color: #F57B51;
+}
+
+.bar.basic::before {
+  background-color: #F57B51;
+}
+
+.bar.intermediate::before {
+  background-color: #F57B51;
+}
+
+.bar.advanced::before {
+  background-color: #F57B51;
+}
+
+.bar.expert::before {
+  background-color: #F57B51;
+}
+
+.bar.learning::before {
+  width: calc(55% - 10px);
+  color: #FDFEFF;
+}
+
+.bar.basic::before {
+  width: calc(65% - 10px);
+  color: #FDFEFF;
+}
+
+.bar.intermediate::before {
+  width: calc(75% - 10px);
+  color: #FDFEFF;
+}
+
+.bar.advanced::before {
+  width: calc(85% - 10px);
+  color: #FDFEFF;
+}
+
+.bar.expert::before {
+  width: calc(95% - 10px);
+  color: #FDFEFF;
+}
